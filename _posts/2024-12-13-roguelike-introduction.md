@@ -44,13 +44,7 @@ Random environment generation would be the most important factor of roguelike. H
 
 100% Randomness only gives inconvenience to the player. You would lose interest if monster's stat and attacks were randomized in a way that you couldn't predict. Here I would like to define "replayability" as "The player should be able to learn from deaths". This is the holy ground of roguelike that even randomness cannot disobey.
 
-To maintain a good balance of randomness the article suggests a general approach; Appearance and placement of items, and monster's placement. To clarify the term "Randomness of Appearance", I would like to give an example from the game <<Shattered Pixel Dungeon>>.
-
-(Insert SPD here)
-
-<<Shattered Pixel Dungeon>> has two major types of consumable items, Scorlls and Potions. However the appearance of those two items changes every run. For example, A _brown potion_ could be _Potion of Strength_ in one run, but could be _Potion of Liquid Flame_ in another. All potions(and scrolls) are unidentified at first but can be identified with various methods, like using them in action without knowing what it is.
-
-The actual fun part of this is that you can predict the item. For example, there is always at least 1 _Potion of Liquid Flame_ on floors that has flammable walls. _Potion of Strength_ never spawns on shops, and will generate every 2 depths. Learning these generation algorithms boosts winning chance significantly. However, the game does not explicitly teach you this information.
+To maintain a good balance of randomness the article suggests a general approach; Randomize appearance and placement of items, and monster's placement. To clarify on how randomization of "appearance of an item" works, refer to chapter [Exploration and discovery](### Exploration and discovery)
 
 ### Permadeath
 
@@ -111,3 +105,19 @@ Resource is not restricted to money or items. In a game designing perspective, r
 ### Hack'n'slash
 
 > Even though there can be much more to the game, killing lots of monsters is a very important part of a roguelike. The game is player-vs-world: there are no monster/monster relations (like enmities, or diplomacy).
+
+Hack and Slash itself is a term origined from TRPG, but now commonly used as a genre. Hack and Slash as a genre means killing a lot of monsters.
+
+Nowdays, Hack and Slash is not a mandatory factor for roguelikes, but are commonly seen. A game that most follows this factor would definetly be <<Vampire Survivors>>.
+
+### Exploration and discovery
+
+> The game requires careful exploration of the dungeon levels and discovery of the usage of unidentified items. This has to be done anew every time the player starts a new game.
+
+To clarify the term "Randomness of Appearance", I would like to give an example from the game <<Shattered Pixel Dungeon>>.
+
+(Insert SPD here)
+
+<<Shattered Pixel Dungeon>> has two major types of consumable items, Scorlls and Potions. However the appearance of those two items changes every run. For example, A _brown potion_ could be _Potion of Strength_ in one run, but could be _Potion of Liquid Flame_ in another. All potions(and scrolls) are unidentified at first but can be identified with various methods, like using them in action without knowing what it is.
+
+The actual fun part of this is that you can predict the item. For example, there is always at least 1 _Potion of Liquid Flame_ on floors that has flammable walls. _Potion of Strength_ never spawns on shops, and will generate every 2 depths. Learning these generation algorithms boosts winning chance significantly. However, the game does not explicitly teach you this information.
