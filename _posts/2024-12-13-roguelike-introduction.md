@@ -44,7 +44,7 @@ Random environment generation would be the most important factor of roguelike. H
 
 100% Randomness only gives inconvenience to the player. You would lose interest if monster's stat and attacks were randomized in a way that you couldn't predict. Here I would like to define "replayability" as "The player should be able to learn from deaths". This is the holy ground of roguelike that even randomness cannot disobey.
 
-To maintain a good balance of randomness the article suggests a general approach; Randomize appearance and placement of items, and monster's placement. To clarify on how randomization of "appearance of an item" works, refer to chapter [Exploration and discovery](### Exploration and discovery)
+To maintain a good balance of randomness the article suggests a general approach; Randomize appearance and placement of items, and monster's placement. To clarify on how randomization of "appearance of an item" works, refer to chapter Exploration and discovery
 
 ### Permadeath
 
