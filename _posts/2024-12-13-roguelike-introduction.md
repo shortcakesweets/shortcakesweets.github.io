@@ -44,7 +44,7 @@ Random environment generation would be the most important factor of roguelike. H
 
 100% Randomness only gives inconvenience to the player. You would lose interest if monster's stat and attacks were randomized in a way that you couldn't predict. Here I would like to define "replayability" as "The player should be able to learn from deaths". This is the holy ground of roguelike that even randomness cannot disobey.
 
-To maintain a good balance of randomness the article suggests a general approach; Randomize appearance and placement of items, and monster's placement. To clarify on how randomization of "appearance of an item" works, refer to chapter Exploration and discovery
+To maintain a good balance of randomness the article suggests a general approach; Randomize appearance and placement of items, and monster's placement. To clarify on how randomization of "appearance of an item" works, refer to chapter [Exploration and discovery](/posts/roguelike-introduction/#exploration-and-discovery)
 
 ### Permadeath
 
@@ -114,10 +114,66 @@ Nowdays, Hack and Slash is not a mandatory factor for roguelikes, but are common
 
 > The game requires careful exploration of the dungeon levels and discovery of the usage of unidentified items. This has to be done anew every time the player starts a new game.
 
-To clarify the term "Randomness of Appearance", I would like to give an example from the game <<Shattered Pixel Dungeon>>.
+This is a good timing to clarify what "unidentified items" (or "Randomness of Appearance"), I would like to give an example from the game <<Shattered Pixel Dungeon>>.
 
 (Insert SPD here)
 
 <<Shattered Pixel Dungeon>> has two major types of consumable items, Scorlls and Potions. However the appearance of those two items changes every run. For example, A _brown potion_ could be _Potion of Strength_ in one run, but could be _Potion of Liquid Flame_ in another. All potions(and scrolls) are unidentified at first but can be identified with various methods, like using them in action without knowing what it is.
 
 The actual fun part of this is that you can predict the item. For example, there is always at least 1 _Potion of Liquid Flame_ on floors that has flammable walls. _Potion of Strength_ never spawns on shops, and will generate every 2 depths. Learning these generation algorithms boosts winning chance significantly. However, the game does not explicitly teach you this information.
+
+<<Shattered Pixel Dungeon>> is not the first game that use this identification mechanic. <<Rogue>>, <<NetHack>> also use this mechanic.
+
+## Low value factors
+
+### Single player character
+
+> The player controls a single character. The game is player-centric, the world is viewed through that one character and that character's death is the end of the game.
+
+Self-explanatory.
+
+Some counterexamples would be <<Darkest Dungeon>> or <<Wildfrost>>, where you control several heroes. However you can extend the term "Character" by some village or party, then almost all roguelikes fits this factor.
+
+### Monsters are similar to players
+
+> Rules that apply to the player apply to monsters as well. They have inventories, equipment, use items, cast spells etc.
+
+Monsters having inventories or equipments will give interesting mechanics such as dropping those items when killed. Using that item or casting spells makes it more interesting in battles. Additionally, monsters can have their own level and stat systems.
+
+Some examples would be:
+<<Wildfrost>>, where monsters can be upgraded by charms.
+<<Desktop Dungeons>>, where monsters have their own level system.
+
+### Tactical challenge
+
+> You have to learn about the tactics before you can make any significant progress. This process repeats itself, i.e. early game knowledge is not enough to beat the late game. (Due to random environments and permanent death, roguelikes are challenging to new players.)
+>
+> The game's focus is on providing tactical challenges (as opposed to strategically working on the big picture, or solving puzzles).
+
+I want to emphasize the last sentence. Just seeing the big picture for looting is one thing, but to win/escape an impossible looking situation is what makes roguelikes fun. Good roguelikes all have some unique technique/mechanism.
+
+Such examples of technique/mechanics that crucial to gameplay are:
+<<Crypt of The Necrodancer>>'s "Stair heal". It is a powerful mechanic that gives free 0.5HP heal per floor. It is almost impossible to learn this alone, and should practice this mechanic.
+<<Desktop Dungeon>>'s "Popcorn". The term refers to low level mobs that are killable in one-shot. They are used for level boosting mid-battle, so that player can restore hp and mp without healing hard monsters. This core technique should be mastered to win hard dungeons.
+<<Darkest Dungeon>'s "Darkloot/Darkun". 0 light level is hard to clear but gives better dungeon loots. Darkloot technique is to kill all lights before hitting the last blow, then take maximum loots. Without this, farming/resource management is way more difficult.
+<<Shattered Pixel Dungeon>>'s "Suprise Attack". This attack is only available on certain conditions which highly depends on dungeon layouts. Player should carefully choose their fighting ground to maximize this technique.
+
+### ASCII display
+
+> The traditional display for roguelikes is to represent the tiled world by ASCII characters.
+
+Self-explanatory, but does not fit with today's game trend.
+
+### Dungeons
+
+> Roguelikes contain dungeons, such as levels composed of rooms and corridors.
+
+Self-explanatory.
+
+You may think this factor as an extension of [Hack'n'Slash](/posts/roguelike-introduction/#hacknslash). A natural place choice of monster spawnned terrain would be a dungeon. Game designers should choose a place that best fits their game's theme.
+
+### Numbers
+
+> The numbers used to describe the character (hit points, attributes etc.) are deliberately shown.
+
+Self-explanatory.
