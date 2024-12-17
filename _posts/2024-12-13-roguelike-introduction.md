@@ -132,7 +132,7 @@ The actual fun part of this is that you can predict the item. For example, there
 
 Self-explanatory.
 
-Some counterexamples would be <<Darkest Dungeon>> or <<Wildfrost>>, where you control several heroes. However you can extend the term "Character" by some village or party, then almost all roguelikes fits this factor.
+Some counterexamples would be <<Darkest Dungeon>> or <<Wildfrost>>, where you control several heroes. However if you extend the term "Character" by some village or party, then almost all roguelikes fits this factor.
 
 ### Monsters are similar to players
 
@@ -153,10 +153,11 @@ Some examples would be:
 I want to emphasize the last sentence. Just seeing the big picture for looting is one thing, but to win/escape an impossible looking situation is what makes roguelikes fun. Good roguelikes all have some unique technique/mechanism.
 
 Such examples of technique/mechanics that crucial to gameplay are:
-<<Crypt of The Necrodancer>>'s "Stair heal". It is a powerful mechanic that gives free 0.5HP heal per floor. It is almost impossible to learn this alone, and should practice this mechanic.
-<<Desktop Dungeon>>'s "Popcorn". The term refers to low level mobs that are killable in one-shot. They are used for level boosting mid-battle, so that player can restore hp and mp without healing hard monsters. This core technique should be mastered to win hard dungeons.
-<<Darkest Dungeon>'s "Darkloot/Darkun". 0 light level is hard to clear but gives better dungeon loots. Darkloot technique is to kill all lights before hitting the last blow, then take maximum loots. Without this, farming/resource management is way more difficult.
-<<Shattered Pixel Dungeon>>'s "Suprise Attack". This attack is only available on certain conditions which highly depends on dungeon layouts. Player should carefully choose their fighting ground to maximize this technique.
+
+- <<Crypt of The Necrodancer>>'s "Stair heal". It is a powerful mechanic that gives free 0.5HP heal per floor. It is almost impossible to learn this alone, and should practice this mechanic.
+- <<Desktop Dungeon>>'s "Popcorn". The term refers to low level mobs that are killable in one-shot. They are used for level boosting mid-battle, so that player can restore hp and mp without healing hard monsters. This core technique should be mastered to win hard dungeons.
+- <<Darkest Dungeon>'s "Darkloot/Darkun". 0 light level is hard to clear but gives better dungeon loots. Darkloot technique is to kill all lights before hitting the last blow, then take maximum loots. Without this, farming/resource management is way more difficult.
+- <<Shattered Pixel Dungeon>>'s "Suprise Attack". This attack is only available on certain conditions which highly depends on dungeon layouts. Player should carefully choose their fighting ground to maximize this technique.
 
 ### ASCII display
 
@@ -170,10 +171,15 @@ Self-explanatory, but does not fit with today's game trend.
 
 Self-explanatory.
 
-You may think this factor as an extension of [Hack'n'Slash](/posts/roguelike-introduction/#hacknslash). A natural place choice of monster spawnned terrain would be a dungeon. Game designers should choose a place that best fits their game's theme.
+We can assume this factor as an extension of [Hack'n'Slash](/posts/roguelike-introduction/#hacknslash). A natural place choice of monster spawnned terrain would be a dungeon. Game designers should choose a place that best fits their game's theme.
 
 ### Numbers
 
 > The numbers used to describe the character (hit points, attributes etc.) are deliberately shown.
 
 Self-explanatory.
+
+Choices should be made by calculations based on these numbers. However there are some exceptions like <<Balatro>> can't be calculated by human brain (the values goes up exponentially), but it still gives the exact "number" that are used to calculate damage.
+
+# Future updates (WIP)
+This is the end of the Berlin Interpretation. I'll update if I get more information about roguelikes.
